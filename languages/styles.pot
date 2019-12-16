@@ -27,6 +27,10 @@ msgid "Upload a stylesheet"
 msgstr ""
 
 #: ./templates/default/styles/admin.tpl.php:36
+msgid "You can also <a href=\"%s\">download your stylesheet</a> to work on it locally."
+msgstr ""
+
+#: ./templates/default/styles/admin.tpl.php:36
 msgid "You can also"
 msgstr ""
 

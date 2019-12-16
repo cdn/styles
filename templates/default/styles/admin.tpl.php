@@ -33,7 +33,7 @@
                     echo htmlspecialchars($vars['css']);
 
             ?></textarea>
-            <?php echo \Idno\Core\Idno::site()->language()->_('You can also'); ?> <a href="<?php echo \Idno\Core\Idno::site()->config()->url ?>styles/site/"><?php echo \Idno\Core\Idno::site()->language()->_('download your stylesheet'); ?></a> <?php echo \Idno\Core\Idno::site()->language()->_('to work on it locally.'); ?>
+            <?php echo \Idno\Core\Idno::site()->language()->_('You can also <a href="%s">download your stylesheet</a> to work on it locally.', [\Idno\Core\Idno::site()->config()->getDisplayURL().'/styless/site/']); ?>
         </div>
     </div>
 
